@@ -10,6 +10,10 @@ namespace moreWithMethods39
     {
         static void Main(string[] args)
         {
+            mathOperation math = new mathOperation();
+
+            math.numMultiply(3, 5);
+            math.numMultiply(i:10, j:30);
         }
     }
 }
